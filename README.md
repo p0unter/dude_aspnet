@@ -20,6 +20,28 @@ This repository contains multiple projects developed using ASP.NET. Each project
          </details>
       </td>
    </tr>
+   <tr>
+      <td>
+         <a href="https://github.com/p0unter/dude_aspnet/tree/main/_2_meetapp">Step-2: [Meeting Application]</a>
+         <details>
+            <summary><strong>Features</strong></summary>
+            <ul>
+               <li>
+                  Join Meeting
+               </li>
+               <li>
+                  View Meetings
+               </li>
+               <li>
+                  View Participants
+               </li>
+               <li>
+                   Use Bootstrap
+               </li>
+            </ul>
+         </details>
+      </td>
+   </tr>
 </table>
 
 
