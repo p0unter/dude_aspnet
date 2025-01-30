@@ -1,0 +1,30 @@
+﻿@model Meeting
+
+@{
+	ViewBag.Title = Model.Name + "[Join Meeting]";
+}
+
+<a class="btn btn-outline-secondary w-25" asp-controller="Meeting" asp-action="Index">Back</a>
+<form method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <div class="mb-3">
+        <label for="name" value="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="mb-3">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="text" class="form-control" id="phone">
+    </div>
+    <div class="mb-3">
+        <label for="coming" class="form-label">Coming</label>
+        <select id="coming" class="form-control">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

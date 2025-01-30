@@ -30,3 +30,4 @@ C:\Users\Winner\Desktop\git\dude_aspnet\_1_blogapp\obj\Debug\net8.0\refint\_1_bl
 C:\Users\Winner\Desktop\git\dude_aspnet\_1_blogapp\obj\Debug\net8.0\_1_blogapp.pdb
 C:\Users\Winner\Desktop\git\dude_aspnet\_1_blogapp\obj\Debug\net8.0\_1_blogapp.genruntimeconfig.cache
 C:\Users\Winner\Desktop\git\dude_aspnet\_1_blogapp\obj\Debug\net8.0\ref\_1_blogapp.dll
+C:\Users\Winner\Desktop\git\dude_aspnet\_1_blogapp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
