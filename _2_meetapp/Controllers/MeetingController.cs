@@ -18,25 +18,24 @@ namespace _2_meetapp.Controllers
 
         public IActionResult Participants(int id)
         {
-            Console.WriteLine($"Participants method called with meetid: {id}");
             ViewBag.meetid = id;
             List<Participant> _ptn = Repository.GetParticipants(id);
+            foreach (var participant in _ptn)
+            {
+                Console.WriteLine($"ID: {participant.Id}, Name: {participant.Name}, Email: {participant.Email}, Phone: {participant.Phone}, Coming: {participant.Coming}");
+            }
             return View(_ptn);
         }
 
         public IActionResult Join(int id)
         {
             var detailObj = Repository.GetIdMeeting(id);
+            Console.WriteLine(detailObj?.Id);
             return View(detailObj);
         }
 
         [HttpPost]
-        public IActionResult Join(
-            int id,
-            string name,
-            string email,
-            string phone,
-            bool coming)
+        public IActionResult Join(int idm, string name, string email, string phone, bool coming)
         {
             var participant = new Participant
             {
@@ -45,25 +44,17 @@ namespace _2_meetapp.Controllers
                 Email = email,
                 Phone = phone,
                 Coming = coming,
-                MeetingId = id
+                MeetingId = idm
             };
 
-            var result = Repository.AddParticipant(participant, id);
+            var result = Repository.AddParticipant(participant, idm);
 
             if (result.Contains("Added"))
             {
-                Console.WriteLine(Repository.Participants);
-
-                return RedirectToAction("Index");
+                return RedirectToAction("Detail", new { id = idm });
             }
-            else
-            {
-                Console.WriteLine(Repository.Participants);
 
-                ModelState.AddModelError(string.Empty, result);
-                var detailObj = Repository.GetIdMeeting(id);
-                return View(detailObj);
-            }
+            return RedirectToAction("Detail", new { id = idm });
         }
     }
 }

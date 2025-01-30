@@ -6,22 +6,22 @@
 
 <a class="btn btn-outline-secondary w-25" asp-controller="Meeting" asp-action="Index">Back</a>
 <form method="post">
-    <input type="hidden" name="id" value="@Model.Id" />
+    <input type="hidden" name="idm" value="@Model.Id" />
     <div class="mb-3">
-        <label for="name" value="name" class="form-label">Name</label>
-        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name">
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="email">
+        <input type="email" class="form-control" id="email" name="email">
     </div>
     <div class="mb-3">
         <label for="phone" class="form-label">Phone</label>
-        <input type="text" class="form-control" id="phone">
+        <input type="text" class="form-control" id="phone" name="phone">
     </div>
     <div class="mb-3">
         <label for="coming" class="form-label">Coming</label>
-        <select id="coming" class="form-control">
+        <select id="coming" class="form-control" name="coming">
             <option value="true">Yes</option>
             <option value="false">No</option>
         </select>

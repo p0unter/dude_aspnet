@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_2_meetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_2_meetapp\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_2_meetapp\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|solutionrelative:views\\meeting\\participants.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_2_meetapp\\views\\meeting\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|solutionrelative:views\\meeting\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_2_meetapp\\views\\meeting\\join.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|solutionrelative:views\\meeting\\join.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_2_meetapp\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_2_meetapp\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F8E071-1E1B-819B-89C0-D8D7D13205CD}|_2_meetapp.csproj|solutionrelative:models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T21:06:36.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Meeting\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Meeting\\Detail.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T21:02:12.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Models\\Repository.cs",
               "RelativeDocumentMoniker": "Models\\Repository.cs",
               "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Models\\Repository.cs",
               "RelativeToolTip": "Models\\Repository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAA5wEAAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T20:31:41.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Participants.cshtml",
-              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Participants.cshtml",
-              "RelativeDocumentMoniker": "Views\\Meeting\\Participants.cshtml",
-              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Participants.cshtml",
-              "RelativeToolTip": "Views\\Meeting\\Participants.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T20:28:39.755Z",
+              "WhenOpened": "2025-01-30T22:01:27.632Z",
               "EditorCaption": ""
             },
             {
@@ -92,9 +53,48 @@
               "RelativeDocumentMoniker": "Controllers\\MeetingController.cs",
               "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Controllers\\MeetingController.cs",
               "RelativeToolTip": "Controllers\\MeetingController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswBQAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:59:54.273Z",
+              "WhenOpened": "2025-01-30T21:15:21.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Models\\Participant.cs",
+              "RelativeDocumentMoniker": "Models\\Participant.cs",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Models\\Participant.cs",
+              "RelativeToolTip": "Models\\Participant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T21:24:12.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Join.cshtml",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Join.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meeting\\Join.cshtml",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Join.cshtml",
+              "RelativeToolTip": "Views\\Meeting\\Join.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T21:41:12.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Participants.cshtml",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Participants.cshtml",
+              "RelativeDocumentMoniker": "Views\\Meeting\\Participants.cshtml",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_2_meetapp\\Views\\Meeting\\Participants.cshtml",
+              "RelativeToolTip": "Views\\Meeting\\Participants.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T21:21:12.728Z",
               "EditorCaption": ""
             }
           ]

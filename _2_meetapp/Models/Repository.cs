@@ -8,19 +8,19 @@
                 Id = 1,
                 Name = "Meeting 1",
                 Description = "Meeting 1 Description",
-                NumberOfUser = 100,
+                NumberOfUser = 100
             },
             new Meeting() {
                 Id = 2,
                 Name = "Meeting 2",
                 Description = "Meeting 2 Description",
-                NumberOfUser = 150,
+                NumberOfUser = 200
             },
             new Meeting() {
                 Id = 3,
                 Name = "Meeting 3",
                 Description = "Meeting 3 Description",
-                NumberOfUser = 250,
+                NumberOfUser = 300
             }
         };
 
