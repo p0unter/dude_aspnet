@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Application</title>
+
+    @await Html.PartialAsync("partials/_Head")
+
+    @RenderSection("Style", false)
+</head>
+<body>
+    @await Html.PartialAsync("partials/_Navbar")
+    
+    <main>
+        @RenderSection("Header", false)
+
+        <div class="container py-2">
+            @RenderBody()
+        </div>
+    </main>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
