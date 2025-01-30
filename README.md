@@ -4,7 +4,7 @@ This repository contains multiple projects developed using ASP.NET. Each project
 
 ## Projects
 
-1. **Step-1: [Blog Application]**
+1. <a href="https://github.com/p0unter/dude_aspnet/tree/main/step-1-example">**Step-1: [Blog Application]**</a>
    - Features:
      - Showing data from the model store on the page.
      - Use Bootstrap
