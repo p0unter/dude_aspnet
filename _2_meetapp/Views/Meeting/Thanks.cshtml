@@ -1,8 +1,18 @@
 ﻿@{
-	ViewBag.Title = "Thanks!";
+    ViewBag.Title = "Thanks!";
 }
 
 <a class="btn btn-outline-secondary w-25" asp-controller="Meeting" asp-action="Detail" asp-route-id="@ViewBag.idm">Back</a>
-<div class="alert alert-success" role="alert">
-	Thanks for joning! Your meeting participants number <b>@ViewBag.nous</b>
-</div>
+
+@if (ViewBag.ParticipantComing == true)
+{
+    <div class="alert alert-success" role="alert">
+        Thanks for joining! Your meeting participants number <b>@ViewBag.nous</b>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        We are sorry that @ViewBag.ParticipantName could not attend.
+    </div>
+}

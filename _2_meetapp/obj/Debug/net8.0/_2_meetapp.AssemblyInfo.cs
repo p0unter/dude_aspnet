@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("_2_meetapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec80551c43ebee168a88543dc4aba3fe3edb6213")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f983cd5912b23282a7f1c8b0fc1992654ab4df2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("_2_meetapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("_2_meetapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

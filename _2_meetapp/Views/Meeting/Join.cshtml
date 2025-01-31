@@ -1,30 +1,36 @@
 ﻿@model Participant
 
 @{
-    ViewBag.Title = "[Join Meeting]";
+    ViewBag.Title = "[Meeting Join]";
 }
 
-<a class="btn btn-outline-secondary w-25" asp-controller="Meeting" asp-action="Detail" asp-route-id="@ViewBag.meetidM">Back</a>
+<a class="btn btn-outline-secondary w-25" asp-controller="Meeting" asp-action="Detail" asp-route-id="@ViewBag.meetidM">Geri Dön</a>
+
 <form method="post">
     <input type="hidden" name="idm" value="@ViewBag.meetidM" />
     <div class="mb-3">
-        <label asp-for="Name" class="form-label">Name</label>
+        <label asp-for="Name" class="form-label">Ad</label>
         <input asp-for="Name" type="text" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label asp-for="Email" class="form-label">Email</label>
+        <label asp-for="Email" class="form-label">E-posta</label>
         <input asp-for="Email" type="email" class="form-control">
+        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label asp-for="Phone" class="form-label">Phone</label>
+        <label asp-for="Phone" class="form-label">Telefon</label>
         <input asp-for="Phone" type="text" class="form-control">
+        <span asp-validation-for="Phone" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label asp-for="Coming" class="form-label">Coming</label>
+        <label asp-for="Coming" class="form-label">Katılıyor musunuz?</label>
         <select asp-for="Coming" class="form-control">
-            <option value="true">Yes</option>
-            <option value="false">No</option>
+            <option selected>Select</option>
+            <option value="true">No</option>
+            <option value="false">Yes</option>
         </select>
+        <span asp-validation-for="Coming" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Gönder</button>
 </form>

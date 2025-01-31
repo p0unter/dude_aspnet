@@ -1,12 +1,24 @@
-﻿namespace _2_meetapp.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace _2_meetapp.Models
 {
     public class Participant
     {
-        public required int Id { get; set; }
-        public required string Name { get; set; }
-        public required string Email { get; set; }
-        public required string Phone { get; set; }
+        public int Id { get; set; }
+
+        [Required]
+        public string? Name { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string? Email { get; set; }
+
+        [Required]
+        public string? Phone { get; set; }
+
+        [Required]
         public required bool Coming { get; set; }
+
         public int MeetingId { get; set; }
     }
 }

@@ -13,6 +13,10 @@ namespace _2_meetapp.Controllers
         public IActionResult Detail(int id)
         {
             var detailObj = Repository.GetIdMeeting(id);
+            if (detailObj == null)
+            {
+                return NotFound();
+            }
             return View(detailObj);
         }
 
@@ -30,38 +34,40 @@ namespace _2_meetapp.Controllers
         public IActionResult Join(int id)
         {
             ViewBag.meetidM = id;
-
             return View();
         }
 
         [HttpPost]
         public IActionResult Join(Participant ptc, int idm)
         {
-            var participant = new Participant
+            if (ModelState.IsValid)
             {
-                Id = Repository.Participants.Count + 1,
-                Name = ptc.Name,
-                Email = ptc.Email,
-                Phone = ptc.Phone,
-                Coming = ptc.Coming,
-                MeetingId = idm
-            };
+                ptc.Id = Repository.Participants.Count + 1;
+                ptc.MeetingId = idm;
 
-            var result = Repository.AddParticipant(participant, idm);
+                var result = Repository.AddParticipant(ptc, idm);
 
-            if (result.Contains("Added"))
-            {
-                Repository.SetNumberOfUser(idm);
+                if (result.Contains("Added"))
+                {
+                    Repository.SetNumberOfUser(idm);
+
+                    TempData["ParticipantName"] = ptc.Name;
+                    TempData["ParticipantComing"] = ptc.Coming;
+
+                    return RedirectToAction("Thanks", new { id = idm });
+                }
+
                 return RedirectToAction("Detail", new { id = idm });
             }
-
-            return RedirectToAction("Detail", new { id = idm });
+            else
+            {
+                return RedirectToAction("Join", new { id = idm });
+            }
         }
 
         public IActionResult Thanks(int id)
         {
             var meeting = Repository.GetIdMeeting(id);
-
             if (meeting == null)
             {
                 return NotFound();
@@ -69,6 +75,12 @@ namespace _2_meetapp.Controllers
 
             ViewBag.nous = meeting.NumberOfUser;
             ViewBag.idm = id;
+
+            string? name = TempData["ParticipantName"] as string;
+            bool? coming = TempData["ParticipantComing"] as bool?;
+
+            ViewBag.ParticipantName = name;
+            ViewBag.ParticipantComing = coming;
 
             return View();
         }
