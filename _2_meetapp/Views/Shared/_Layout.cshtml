@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Meet Application</title>
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="mx-auto d-flex flex-column justify-content-center">
+            <span class="navbar-brand text-center m-0">Meeting App</span>
+        </div>
+    </nav>
+    <main class="row w-100">
+        <div class="p-3 card col-11 col-md-8 col-lg-5 mx-auto mt-3">
+            @RenderBody()
+        </div>
+    </main>
+</body>
+</html>

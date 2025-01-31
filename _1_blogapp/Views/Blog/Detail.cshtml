@@ -1,0 +1,26 @@
+﻿@model Product
+
+@section Style {
+	<style>
+		.header {
+			background-image: url(@Model.ImgUrl);
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
+}
+
+@section Header {
+	<header class="header py-5">
+		<div class="container text-light rounded" style="backdrop-filter: blur(20px); width: max-content;">
+			<h1>@Model.Title</h1>
+			<div class="mt-3">
+				<p>@Model.Subheading</p>
+			</div>
+		</div>
+	</header>
+}
+
+<p>
+	@Model.Content
+</p>

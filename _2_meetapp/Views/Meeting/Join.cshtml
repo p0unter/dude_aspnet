@@ -1,0 +1,30 @@
+﻿@model Participant
+
+@{
+    ViewBag.Title = "[Join Meeting]";
+}
+
+<a class="btn btn-outline-secondary w-25" asp-controller="Meeting" asp-action="Detail" asp-route-id="@ViewBag.meetidM">Back</a>
+<form method="post">
+    <input type="hidden" name="idm" value="@ViewBag.meetidM" />
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" type="email" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Phone" class="form-label">Phone</label>
+        <input asp-for="Phone" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Coming" class="form-label">Coming</label>
+        <select asp-for="Coming" class="form-control">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
