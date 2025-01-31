@@ -29,21 +29,21 @@ namespace _2_meetapp.Controllers
 
         public IActionResult Join(int id)
         {
-            var detailObj = Repository.GetIdMeeting(id);
-            Console.WriteLine(detailObj?.Id);
-            return View(detailObj);
+            ViewBag.meetidM = id;
+
+            return View();
         }
 
         [HttpPost]
-        public IActionResult Join(int idm, string name, string email, string phone, bool coming)
+        public IActionResult Join(Participant ptc, int idm)
         {
             var participant = new Participant
             {
                 Id = Repository.Participants.Count + 1,
-                Name = name,
-                Email = email,
-                Phone = phone,
-                Coming = coming,
+                Name = ptc.Name,
+                Email = ptc.Email,
+                Phone = ptc.Phone,
+                Coming = ptc.Coming,
                 MeetingId = idm
             };
 
@@ -51,10 +51,26 @@ namespace _2_meetapp.Controllers
 
             if (result.Contains("Added"))
             {
+                Repository.SetNumberOfUser(idm);
                 return RedirectToAction("Detail", new { id = idm });
             }
 
             return RedirectToAction("Detail", new { id = idm });
+        }
+
+        public IActionResult Thanks(int id)
+        {
+            var meeting = Repository.GetIdMeeting(id);
+
+            if (meeting == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.nous = meeting.NumberOfUser;
+            ViewBag.idm = id;
+
+            return View();
         }
     }
 }

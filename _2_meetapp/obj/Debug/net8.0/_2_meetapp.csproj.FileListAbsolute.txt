@@ -31,3 +31,4 @@ C:\Users\Winner\Desktop\git\dude_aspnet\_2_meetapp\obj\Debug\net8.0\_2_meetapp.g
 C:\Users\Winner\Desktop\git\dude_aspnet\_2_meetapp\obj\Debug\net8.0\ref\_2_meetapp.dll
 C:\Users\Winner\Desktop\git\dude_aspnet\_2_meetapp\bin\Debug\net8.0\libman.json
 C:\Users\Winner\Desktop\git\dude_aspnet\_2_meetapp\bin\Debug\net8.0\_2_meetapp.staticwebassets.runtime.json
+C:\Users\Winner\Desktop\git\dude_aspnet\_2_meetapp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
