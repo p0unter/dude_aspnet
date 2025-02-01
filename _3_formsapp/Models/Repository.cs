@@ -40,6 +40,13 @@
         }
 
         public static List<Product> Products => _products;
+
+        public static void AddProduct(Product product)
+        {
+            product.ProductId = _products.Max(p => p.ProductId) + 1;
+            _products.Add(product);
+        }
+
         public static List<Category> Categories => _categories;
 
 

@@ -27,7 +27,6 @@ C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\staticwebas
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting._3_formsapp.props
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive._3_formsapp.props
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\_3_formsapp.dll
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\refint\_3_formsapp.dll
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\_3_formsapp.pdb
