@@ -47,8 +47,37 @@
             _products.Add(product);
         }
 
+        public static void EditProduct(Product product)
+        {
+            var existingProduct = _products.FirstOrDefault(p => p.ProductId == product.ProductId);
+            if (existingProduct != null)
+            {
+                existingProduct.Name = product.Name;
+                existingProduct.Price = product.Price;
+                existingProduct.Image = product.Image;
+                existingProduct.CategoryId = product.CategoryId;
+                existingProduct.IsActive = product.IsActive;
+            }
+        }
+
+        public static void EditProductActive(Product product)
+        {
+            var existingProduct = _products.FirstOrDefault(p => p.ProductId == product.ProductId);
+            if (existingProduct != null)
+            {
+                existingProduct.IsActive = product.IsActive;
+            }
+        }
+
+        public static void DeleteProduct(int productId)
+        {
+            var existingProduct = _products.FirstOrDefault(p => p.ProductId == productId);
+            if (existingProduct != null)
+            {
+                _products.Remove(existingProduct);
+            }
+        }
+
         public static List<Category> Categories => _categories;
-
-
     }
 }

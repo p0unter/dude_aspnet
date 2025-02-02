@@ -22,6 +22,7 @@ namespace _3_formsapp.Models
         [Display(Name = "Image")]
         public string? Image { get; set; }
 
+        [Display(Name = "Is Active")]
         public bool IsActive { get; set; }
 
         public int? CategoryId { get; set; }

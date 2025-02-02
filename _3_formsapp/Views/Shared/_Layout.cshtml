@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - _3_formsapp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/_3_formsapp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css"/>
 </head>
 <body>
     <header>
@@ -20,7 +19,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Create">Create</a>
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Create"><i class="ri-sticky-note-add-line"></i> Create</a>
                         </li>
                     </ul>
                 </div>
@@ -38,8 +37,13 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - _3_formsapp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="py-3 container d-flex justify-content-between">
+            <div>
+                &copy; 2025 - _3_formsapp
+            </div>
+            <div>
+                <a href="https://github.com/p0unter" target="_blank" class="btn btn-primary btn-sm"><i class="ri-github-fill"></i> Github</a>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

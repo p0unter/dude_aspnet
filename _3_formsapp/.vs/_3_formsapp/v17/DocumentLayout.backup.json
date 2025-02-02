@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_3_formsapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A214C17D-6BDF-6A8F-B390-221D31BE6A50}|_3_formsapp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,36 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Models\\Repository.cs",
-              "RelativeDocumentMoniker": "Models\\Repository.cs",
-              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Models\\Repository.cs",
-              "RelativeToolTip": "Models\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T10:43:19.624Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T18:23:20.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T18:15:10.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T18:12:47.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDAAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAA5wGoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T10:44:36.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -63,19 +94,8 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T22:20:10.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "Views\\Home\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T20:22:16.507Z"
+              "WhenOpened": "2025-02-01T22:20:10.22Z",
+              "EditorCaption": ""
             }
           ]
         }
