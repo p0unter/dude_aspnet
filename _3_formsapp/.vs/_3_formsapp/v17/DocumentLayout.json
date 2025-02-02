@@ -38,8 +38,7 @@
               "RelativeToolTip": "Models\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T10:43:19.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T10:43:19.624Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA9wDAAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T10:44:36.919Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T22:20:10.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T22:20:10.22Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Views\\Home\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T20:22:16.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T20:22:16.507Z"
             }
           ]
         }

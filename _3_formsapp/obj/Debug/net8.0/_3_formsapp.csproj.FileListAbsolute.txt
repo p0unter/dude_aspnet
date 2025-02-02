@@ -32,3 +32,4 @@ C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\refint\_3_f
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\_3_formsapp.pdb
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\_3_formsapp.genruntimeconfig.cache
 C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\ref\_3_formsapp.dll
+C:\Users\Winner\Desktop\git\dude_aspnet\_3_formsapp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
