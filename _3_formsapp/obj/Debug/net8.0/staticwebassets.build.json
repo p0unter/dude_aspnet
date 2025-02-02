@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bMAxQm1i+5vNhlWzs0rPTxskJLxT4DBO7pXLpG1SOpU=",
+  "Hash": "fcI4przBqB8ebu0LCI4c1YTEI0qr8en79sMrhdfIz3k=",
   "Source": "_3_formsapp",
   "BasePath": "_content/_3_formsapp",
   "Mode": "Default",
@@ -99,6 +99,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\img\\6a5c7197-8371-4c06-8086-1ff7ea49f905.jpg",
+      "SourceId": "_3_formsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\",
+      "BasePath": "_content/_3_formsapp",
+      "RelativePath": "img/6a5c7197-8371-4c06-8086-1ff7ea49f905#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gt6koe1dc1",
+      "Integrity": "fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\6a5c7197-8371-4c06-8086-1ff7ea49f905.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\img\\81a53514-1c53-47d0-9954-d5015debb310.jpg",
+      "SourceId": "_3_formsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\",
+      "BasePath": "_content/_3_formsapp",
+      "RelativePath": "img/81a53514-1c53-47d0-9954-d5015debb310#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gt6koe1dc1",
+      "Integrity": "fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\81a53514-1c53-47d0-9954-d5015debb310.jpg"
     },
     {
       "Identity": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\img\\bullgama3.jpg",
@@ -1708,6 +1750,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/6a5c7197-8371-4c06-8086-1ff7ea49f905.gt6koe1dc1.jpg",
+      "AssetFile": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\img\\6a5c7197-8371-4c06-8086-1ff7ea49f905.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "727742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 14:53:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gt6koe1dc1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/6a5c7197-8371-4c06-8086-1ff7ea49f905.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/6a5c7197-8371-4c06-8086-1ff7ea49f905.jpg",
+      "AssetFile": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\img\\6a5c7197-8371-4c06-8086-1ff7ea49f905.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "727742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 14:53:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/81a53514-1c53-47d0-9954-d5015debb310.gt6koe1dc1.jpg",
+      "AssetFile": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\img\\81a53514-1c53-47d0-9954-d5015debb310.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "727742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 14:58:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gt6koe1dc1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/81a53514-1c53-47d0-9954-d5015debb310.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/81a53514-1c53-47d0-9954-d5015debb310.jpg",
+      "AssetFile": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_3_formsapp\\wwwroot\\img\\81a53514-1c53-47d0-9954-d5015debb310.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "727742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 14:58:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEB92MVkfWWRcS2YIuHbfbZBxArmdSHJoHcjGbuedHQ="
         }
       ]
     },

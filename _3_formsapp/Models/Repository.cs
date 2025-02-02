@@ -17,7 +17,7 @@
                 Price = 100,
                 IsActive = true,
                 Image = "nokia3310.jpg",
-                CategoryId = 1 
+                CategoryId = 1
             });
             _products.Add(new Product
             {
