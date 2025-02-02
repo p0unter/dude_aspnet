@@ -42,6 +42,34 @@ This repository contains multiple projects developed using ASP.NET. Each project
          </details>
       </td>
    </tr>
+   <tr>
+      <td>
+         <a href="https://github.com/p0unter/dude_aspnet/tree/main/_3_formsapp">Step-3: [Forms Application]</a>
+         <details>
+            <summary><strong>Features</strong></summary>
+            <ul>
+               <li>
+                  Product Add
+               </li>
+               <li>
+                  Product Delete
+               </li>
+               <li>
+                  Product Edit
+               </li>
+               <li>
+                  Product List
+               </li>
+               <li>
+                  Image Add
+               </li>
+               <li>
+                  Validations
+               </li>
+            </ul>
+         </details>
+      </td>
+   </tr>
 </table>
 
 
