@@ -1,3 +1,4 @@
+![dude_asp](https://github.com/user-attachments/assets/04806865-e611-4e98-b08d-3c2ae0f8ec44)
 # Dude ASP.NET
 This repository contains multiple projects developed using ASP.NET. Each project showcases different features and functionalities. Below are brief descriptions of the projects along with installation steps.
 
