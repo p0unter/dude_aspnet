@@ -1,0 +1,14 @@
+﻿@model Student
+
+@{
+	ViewData["Title"] = "Delete";
+}
+
+<h2>Student Delete [@Model.StudentSurname]</h2>
+<hr />
+<p>Would you like this student delete?</p>
+<form asp-action="Delete" method="post">
+	<input type="hidden" asp-for="StudentId" />
+	<a asp-controller="Student" asp-action="Index" class="btn btn-secondary">Back to List</a>
+	<button type="submit" class="btn btn-danger">Delete</button>
+</form>
