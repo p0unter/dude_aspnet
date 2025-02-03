@@ -70,6 +70,28 @@ This repository contains multiple projects developed using ASP.NET. Each project
          </details>
       </td>
    </tr>
+   <tr>
+      <td>
+         <a href="https://github.com/p0unter/dude_aspnet/tree/main/_3_formsapp">Step-4: [Entity Framework Application]</a>
+         <details>
+            <summary><strong>Features</strong></summary>
+            <ul>
+               <li>
+                  Database Student Add
+               </li>
+               <li>
+                  Database Student Delete
+               </li>
+               <li>
+                  Database Student Edit
+               </li>
+               <li>
+                  Database Student List
+               </li>
+            </ul>
+         </details>
+      </td>
+   </tr>
 </table>
 
 
