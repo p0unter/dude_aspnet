@@ -142,9 +142,7 @@ C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\_4_entitya
 C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\_4_entityapp.RazorAssemblyInfo.cache
 C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\_4_entityapp.RazorAssemblyInfo.cs
 C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\_4_entityapp.sourcelink.json
-C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\scopedcss\bundle\_4_entityapp.styles.css
-C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\scopedcss\projectbundle\_4_entityapp.bundle.scp.css
 C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Winner\Desktop\git\dude_aspnet\_4_entityapp\obj\Debug\net8.0\staticwebassets.build.endpoints.json

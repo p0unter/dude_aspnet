@@ -7,6 +7,6 @@ namespace _4_entityapp.Data
         [Key]
         public int CourseId { get; set; }
 
-        public string? Title { get; set; }
+        public string? CourseTitle { get; set; }
     }
 }

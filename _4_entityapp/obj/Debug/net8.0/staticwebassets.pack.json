@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\_4_entityapp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\_4_entityapp.kpsl2uqjh1.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

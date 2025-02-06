@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_4_entityapp\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|solutionrelative:views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_4_entityapp\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_4_entityapp\\data\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|solutionrelative:data\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|c:\\users\\winner\\desktop\\git\\dude_aspnet\\_4_entityapp\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFE4D3FC-C7A9-1CDB-9DE1-B2BF0D6648EE}|_4_entityapp.csproj|solutionrelative:views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T15:39:30.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Data\\Course.cs",
+              "RelativeDocumentMoniker": "Data\\Course.cs",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Data\\Course.cs",
+              "RelativeToolTip": "Data\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:36:18.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T15:33:09.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_4_entityapp\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T15:22:04.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
