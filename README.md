@@ -1,3 +1,4 @@
+![dude_asp](https://github.com/user-attachments/assets/04806865-e611-4e98-b08d-3c2ae0f8ec44)
 # Dude ASP.NET
 This repository contains multiple projects developed using ASP.NET. Each project showcases different features and functionalities. Below are brief descriptions of the projects along with installation steps.
 
@@ -65,6 +66,28 @@ This repository contains multiple projects developed using ASP.NET. Each project
                </li>
                <li>
                   Validations
+               </li>
+            </ul>
+         </details>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <a href="https://github.com/p0unter/dude_aspnet/tree/main/_3_formsapp">Step-4: [Entity Framework Application]</a>
+         <details>
+            <summary><strong>Features</strong></summary>
+            <ul>
+               <li>
+                  Database Student Add
+               </li>
+               <li>
+                  Database Student Delete
+               </li>
+               <li>
+                  Database Student Edit
+               </li>
+               <li>
+                  Database Student List
                </li>
             </ul>
          </details>
