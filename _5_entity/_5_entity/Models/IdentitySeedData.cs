@@ -29,6 +29,7 @@ public class IdentitySeedData
             user = new AppUser()
             {
                 FullName = "Pounter",
+                UserName = AdminUserName,
                 Email = "admin@gmail.com",
                 PhoneNumber = "0123456789"
             };

@@ -10,20 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d209980-4387-4c15-bdb2-56c553c0dc80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_5_entity/Controllers/RolesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Controllers/UsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Models/AppRole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Models/AppUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Models/IdentityContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Models/IdentitySeedData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/TagHelpers/RoleUsersTagHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/ViewModels/CreateViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/ViewModels/EditViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Views/Roles/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Views/Roles/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Views/Users/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Views/Users/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_entity/Views/Users/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_4_entityapp/.vs/ProjectEvaluation/_4_entityapp.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../_4_entityapp/.vs/ProjectEvaluation/_4_entityapp.metadata.v9.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_4_entityapp/.vs/ProjectEvaluation/_4_entityapp.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../_4_entityapp/.vs/ProjectEvaluation/_4_entityapp.projects.v9.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_4_entityapp/.vs/_4_entityapp/CopilotIndices/17.12.31.40377/CodeChunks.db" beforeDir="false" afterPath="$PROJECT_DIR$/../_4_entityapp/.vs/_4_entityapp/CopilotIndices/17.12.31.40377/CodeChunks.db" afterDir="false" />
@@ -175,7 +161,7 @@
       <workItem from="1738857248292" duration="3636000" />
       <workItem from="1738868895242" duration="2993000" />
       <workItem from="1738872277088" duration="26000" />
-      <workItem from="1738872394984" duration="506000" />
+      <workItem from="1738872394984" duration="745000" />
     </task>
     <servers />
   </component>
