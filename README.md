@@ -93,6 +93,43 @@ This repository contains multiple projects developed using ASP.NET. Each project
          </details>
       </td>
    </tr>
+   <tr>
+      <td>
+         <a href="https://github.com/p0unter/dude_aspnet/tree/main/_5_entity">Step-5: [Identity Application] (Big Project)</a>
+         <details>
+            <summary><strong>Features</strong></summary>
+            <ul>
+               <li>
+                  Identity Use
+               </li>
+               <li>
+                  Custom Tag Helper
+               </li>
+               <li>
+                  Entity Framework Use
+               </li>
+               <li>
+                  Create User
+               </li>
+               <li>
+                  Create Role
+               </li>
+               <li>
+                  User Role Match
+               </li>
+               <li>
+                  Use SQLite
+               </li>
+               <li>
+                  Authentication
+               </li>
+               <li>
+                  Use SMTP Server (Add your own API service to make it work.)
+               </li>
+            </ul>
+         </details>
+      </td>
+   </tr>
 </table>
 
 
