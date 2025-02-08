@@ -8,6 +8,7 @@ public class IdentitySeedData
 {
     private const string AdminUserName = "admin";
     private const string AdminPassword = "Admin_123";
+    private const string AdminRole = "admin";
 
     public static async void IdentityTestUser(IApplicationBuilder app)
     {
@@ -35,6 +36,11 @@ public class IdentitySeedData
             };
             
             await userManager.CreateAsync(user, AdminPassword);
+            
+            if (!await userManager.IsInRoleAsync(user, AdminRole))
+            {
+                await userManager.AddToRoleAsync(user, AdminRole);
+            }
         }
     }
 }

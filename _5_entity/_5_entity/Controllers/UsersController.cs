@@ -1,11 +1,13 @@
 using _5_entity.Models;
 using _5_entity.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace _5_entity.Controllers;
 
+[Authorize(Roles = "admin")]
 public class UsersController : Controller
 {
     private UserManager<AppUser> _userManager;
@@ -17,8 +19,16 @@ public class UsersController : Controller
         _roleManager = roleManager;
     }
     
+    // [AllowAnonymous] // for show
     public IActionResult Index()
     {
+        /*
+        if (!User.IsInRole("admin"))
+        {
+            return Unauthorized();
+        }
+        */
+        
         return View(_userManager.Users);
     }
     
