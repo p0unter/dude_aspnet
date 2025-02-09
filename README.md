@@ -133,6 +133,40 @@ This repository contains multiple projects developed using ASP.NET. Each project
          </details>
       </td>
    </tr>
+   <tr>
+      <td>
+         <a href="https://github.com/p0unter/dude_aspnet/tree/main/_6_webapi">Step-6: [Web API Application]</a>
+         <details>
+            <summary><strong>Features</strong></summary>
+            <ul>
+               <li>
+                  Use Entity Framework Core
+               </li>
+               <li>
+                  Use SQLite
+               </li>
+               <li>
+                  Data Query
+               </li>
+               <li>
+                  Data Add
+               </li>
+               <li>
+                  Data Delete
+               </li>
+               <li>
+                  Data Update
+               </li>
+               <li>
+                  Use Data Transfer Object - DTO
+               </li>
+               <li>
+                  Use HTTP Status Code
+               </li>
+            </ul>
+         </details>
+      </td>
+   </tr>
 </table>
 
 
