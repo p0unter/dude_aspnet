@@ -6,9 +6,11 @@ This repository contains multiple projects developed using ASP.NET. Each project
 
 <table>
    <tr>
-      <td>
+      <td width="400" height="80">
          <a href="https://github.com/p0unter/dude_aspnet/tree/main/step-1-example">Step-1: [Blog Application]</a>
-         <details>
+      </td>
+      <td width="800">
+         <details open>
             <summary><strong>Features</strong></summary>
             <ul>
                <li>
@@ -22,9 +24,11 @@ This repository contains multiple projects developed using ASP.NET. Each project
       </td>
    </tr>
    <tr>
-      <td>
+      <td height="80">
          <a href="https://github.com/p0unter/dude_aspnet/tree/main/_2_meetapp">Step-2: [Meeting Application]</a>
-         <details>
+      </td>
+      <td width="800">
+         <details open>
             <summary><strong>Features</strong></summary>
             <ul>
                <li>
@@ -44,9 +48,11 @@ This repository contains multiple projects developed using ASP.NET. Each project
       </td>
    </tr>
    <tr>
-      <td>
+      <td height="80">
          <a href="https://github.com/p0unter/dude_aspnet/tree/main/_3_formsapp">Step-3: [Forms Application]</a>
-         <details>
+      </td>
+      <td width="800">
+         <details open>
             <summary><strong>Features</strong></summary>
             <ul>
                <li>
@@ -72,9 +78,11 @@ This repository contains multiple projects developed using ASP.NET. Each project
       </td>
    </tr>
    <tr>
-      <td>
+      <td height="80">
          <a href="https://github.com/p0unter/dude_aspnet/tree/main/_3_formsapp">Step-4: [Entity Framework Application]</a>
-         <details>
+      </td>
+      <td width="800">
+         <details open>
             <summary><strong>Features</strong></summary>
             <ul>
                <li>
@@ -94,9 +102,11 @@ This repository contains multiple projects developed using ASP.NET. Each project
       </td>
    </tr>
    <tr>
-      <td>
+      <td height="80">
          <a href="https://github.com/p0unter/dude_aspnet/tree/main/_5_entity">Step-5: [Identity Application] (Big Project)</a>
-         <details>
+      </td>
+      <td width="800">
+         <details open>
             <summary><strong>Features</strong></summary>
             <ul>
                <li>
@@ -134,9 +144,11 @@ This repository contains multiple projects developed using ASP.NET. Each project
       </td>
    </tr>
    <tr>
-      <td>
+      <td height="80">
          <a href="https://github.com/p0unter/dude_aspnet/tree/main/_6_webapi">Step-6: [Web API Application]</a>
-         <details>
+      </td>
+      <td width="800">
+         <details open>
             <summary><strong>Features</strong></summary>
             <ul>
                <li>
@@ -176,3 +188,5 @@ To clone the repository to your local machine, use the following command:
 
 ```bash
 git clone https://github.com/p0unter/dude_asp.git
+```
+![v1imza_min](https://github.com/user-attachments/assets/de71e3df-145c-4f15-9140-0f3a87515b99)
