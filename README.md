@@ -124,7 +124,10 @@ This repository contains multiple projects developed using ASP.NET. Each project
                   Authentication
                </li>
                <li>
-                  Use SMTP Server (Add your own API service to make it work.)
+                  Email Verification (Add your own API service to make it work.)
+               </li>
+               <li>
+                  Reset Password (Add your own API service to make it work.)
                </li>
             </ul>
          </details>
