@@ -1,5 +1,6 @@
 using _6_webapi.DTO;
 using _6_webapi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +18,7 @@ public class ProductsController : ControllerBase
     }
         
     // localhost:5000/api/products => GET
+    [Authorize]
     [HttpGet]
     public async Task<IActionResult> GetProducts()
     {
@@ -39,8 +41,8 @@ public class ProductsController : ControllerBase
             // return StatusCode(404, "Product not found");
         }
         
-        var p = await _context.Products?
-            .Select(p => GetProductDTO(p)).FirstOrDefaultAsync(p => p.ProductId == id);
+        var p = await _context.Products?.Where(i => i.ProductId == id)
+            .Select(p => GetProductDTO(p)).FirstOrDefaultAsync();
         
         if (p == null)
         {
@@ -117,11 +119,14 @@ public class ProductsController : ControllerBase
 
     private static ProductDTO GetProductDTO(Product p)
     {
-        return new ProductDTO
+        var entity = new ProductDTO();
+        if (p != null)
         {
-            ProductId = p.ProductId,
-            ProductName = p.ProductName,
-            Price = p.Price
-        };
+            entity.ProductId = p.ProductId;
+            entity.ProductName = p.ProductName;
+            entity.Price = p.Price;
+        }
+
+        return entity;
     }
 }
