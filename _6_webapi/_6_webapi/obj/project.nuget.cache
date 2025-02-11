@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T/EJn0vuFCNWGkv1GY1jXqQV3M9ijayre9Vxo2CzhKFdWkZvCR3J1k1GrsVIoxFfM+UPdeacVWHIlMJ2HMWp8A==",
+  "dgSpecHash": "oJfUDQPsT48=",
   "success": true,
   "projectFilePath": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_6_webapi\\_6_webapi\\_6_webapi.csproj",
   "expectedPackageFiles": [
@@ -53,5 +53,26 @@
     "C:\\Users\\Winner\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Winner\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 7.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
