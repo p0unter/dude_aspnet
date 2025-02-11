@@ -179,7 +179,7 @@ This repository contains multiple projects developed using ASP.NET. Each project
                   Use in Javascript (With token generator.)
                </li>
                <li>
-                  Use in Aspnet (No have token generator. So you take error.)
+                  Use in Aspnet (No have token generator. So you take error. If you remove [Authorize] in ProductsController.cs the error will go away.)
                </li>
             </ul>
          </details>
