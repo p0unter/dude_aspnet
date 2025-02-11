@@ -175,6 +175,12 @@ This repository contains multiple projects developed using ASP.NET. Each project
                <li>
                   Use HTTP Status Code
                </li>
+               <li>
+                  Use in Javascript (With token generator.)
+               </li>
+               <li>
+                  Use in Aspnet (No have token generator. So you take error.)
+               </li>
             </ul>
          </details>
       </td>
