@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "jGXAKD/CHyt2XBCLHo5DRnQ4mNu/UiNjgPQLPs3Wr2Q=",
+  "Source": "_7_storepp.Web",
+  "BasePath": "_content/_7_storepp.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "_7_storepp.Web\\wwwroot",
+      "Source": "_7_storepp.Web",
+      "ContentRoot": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_7_storepp\\_7_storepp.Web\\wwwroot\\",
+      "BasePath": "_content/_7_storepp.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_7_storepp\\_7_storepp.Web\\wwwroot\\css\\style.css",
+      "SourceId": "_7_storepp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_7_storepp\\_7_storepp.Web\\wwwroot\\",
+      "BasePath": "_content/_7_storepp.Web",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_7_storepp\\_7_storepp.Web\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Dec 2023 16:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Winner\\Desktop\\git\\dude_aspnet\\_7_storepp\\_7_storepp.Web\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Dec 2023 16:59:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    }
+  ]
+}

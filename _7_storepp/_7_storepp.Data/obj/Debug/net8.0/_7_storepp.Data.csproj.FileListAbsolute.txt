@@ -1,0 +1,15 @@
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\bin\Debug\net8.0\_7_storepp.Data.deps.json
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\bin\Debug\net8.0\_7_storepp.Data.runtimeconfig.json
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\bin\Debug\net8.0\_7_storepp.Data.dll
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\bin\Debug\net8.0\_7_storepp.Data.pdb
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.csproj.AssemblyReference.cache
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.AssemblyInfoInputs.cache
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.AssemblyInfo.cs
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.sourcelink.json
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.dll
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\refint\_7_storepp.Data.dll
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.pdb
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\_7_storepp.Data.genruntimeconfig.cache
+C:\Users\Winner\Desktop\git\dude_aspnet\_7_storepp\_7_storepp.Data\obj\Debug\net8.0\ref\_7_storepp.Data.dll

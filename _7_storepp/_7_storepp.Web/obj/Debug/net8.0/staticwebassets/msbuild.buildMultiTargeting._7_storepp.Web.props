@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\_7_storepp.Web.props" />
+</Project>
